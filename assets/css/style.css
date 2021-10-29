@@ -64,7 +64,41 @@ header nav ul li a{
     justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
-    border-right: var(--black);
+}
+.apps{
+    margin: 60px;
+    flex: 1;
+    justify-content: center;
+}
+.main-app{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto; 
+    border-radius: 15px;
+    align-items: center;
+    padding: 20px;
+}
+.main-app h3{
+    border: solid;
+    flex: 1 30%;
+}
+.second-app{
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+}
+.main-app:hover{
+    opacity: 0.3;
+}
+.second-app:hover{
+    opacity: 0.3;
+}
+
+section{
+    padding: 60px;
+    background-image: url("../images/Hero.jpg");
 }
 :root{
     --black: var(--black, 000000);
