@@ -6,7 +6,7 @@
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FFC0CB;
+    color: 000000;
 }
 header{
     padding: 20px 35px;
@@ -19,6 +19,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    background-image: url("../images/Hero.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -28,11 +29,11 @@ header{
 header h1{
     font-weight: bold;
     font-size: 36px;
-    color: var(--pink);
+    color: var(--black);
     margin: 0;
 }
 header a{
-    color: var(--pink);
+    color: var(--black);
 }
 header nav{
     margin: 10px 0;
@@ -49,6 +50,22 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 1.55vw;
 }
+.section-title{
+    font-size: 48px;
+    display: inline-block;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    margin-bottom: 35px;
+}
+.hero{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-right: var(--black);
+}
 :root{
-    --pink: var(--pink);
+    --black: var(--black, 000000);
 }
